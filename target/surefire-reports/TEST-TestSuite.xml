@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.33" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\Tutorials\API Tutorials\RestApiAutomationFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Tutorials\API Tutorials\RestApiAutomationFramework"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.6.0-bin\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_191/bin;C:\Program Files\Java\jdk1.8.0_191/bin;E:\OracleDB\WINDOWS.X64_193000_db_home\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Java\jre1.8.0_191\bin;C:\Appium\sdk\tools;C:\Appium\sdk\platform-tools;C:\Ant\bin;C:\Maven\apache-maven-3.6.0-bin\bin;C:\apache-maven-3.6.0\bin;C:\Appium\sdk\build-tools;C:\Users\shafaat65\AppData\Local\Programs\Microsoft VS Code\bin;E:\Tutorials\Selenium\seleniumpython\allure-2.6.0\allure-2.6.0\bin;C:\OracleDB\instantclient_19_10;%ALLURE_HOME%\bin;C:\Users\shafaat65\AppData\Local\Programs\Python\Python37;C:\Users\shafaat65\AppData\Local\Programs\Python\Python37\DLLs;C:\Users\shafaat65\AppData\Local\Programs\Python\Python37\Lib;C:\Users\shafaat65\AppData\Local\Programs\Python\Python37\Scripts;C:\Program Files\PowerShell\7\;C:\Program Files\ffmpeg\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\shafaat65\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\shafaat65\AppData\Local\Programs\Python\Python37\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\shafaat65\AppData\Local\Microsoft\WindowsApps;E:\sdkfolder\sdk\tools\bin;C:\Users\shafaat65\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Maven\apache-maven-3.6.0-bin\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Maven\apache-maven-3.6.0-bin\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\shafaat65"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="shafaat65"/>
+    <property name="java.class.path" value="C:\Maven\apache-maven-3.6.0-bin\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.6.0-bin\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="checkValidationOnBody" classname="testcases.TC001_Get_All_Employees" time="0.246">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at testcases.TC001_Get_All_Employees.checkValidationOnBody(TC001_Get_All_Employees.java:56)
+</failure>
+    <system-out><![CDATA[2021-11-14 18:15:18 INFO  EmployeeRestAPI:20 - ************* Started TC001_Get_All_Employees *************
+2021-11-14 18:15:31 INFO  EmployeeRestAPI:31 - ************* Checking Response Body *************
+2021-11-14 18:15:31 INFO  EmployeeRestAPI:33 - Response body===> {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+2021-11-14 18:15:31 INFO  EmployeeRestAPI:38 - ************* Checking Status Code *************
+2021-11-14 18:15:31 INFO  EmployeeRestAPI:42 - Status code===> 200
+2021-11-14 18:15:31 INFO  EmployeeRestAPI:47 - ************* Checking Response Time *************
+2021-11-14 18:15:31 INFO  EmployeeRestAPI:51 - Response time===> 6379
+2021-11-14 18:15:31 WARN  EmployeeRestAPI:53 - Response time is greater then 2000
+]]></system-out>
+  </testcase>
+  <testcase name="validateSingleEmployeeData" classname="testcases.TC002_Get_SingleEmployeeData" time="0.036"/>
+  <testcase name="validationsonPostRegisterData" classname="testcases.TC004_Post_RegisterData" time="0.011"/>
+  <testcase name="validationOnPutUserData" classname="testcases.TC005_PUT_UpdateData" time="0.028"/>
+  <testcase name="validationsonDeleteRequest" classname="testcases.TC006_Delete_UserRecord" time="0.009"/>
+</testsuite>

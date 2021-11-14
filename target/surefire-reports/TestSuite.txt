@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.877 sec <<< FAILURE! - in TestSuite
+checkValidationOnBody(testcases.TC001_Get_All_Employees)  Time elapsed: 0.246 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at testcases.TC001_Get_All_Employees.checkValidationOnBody(TC001_Get_All_Employees.java:56)
+

@@ -1,0 +1,8 @@
+testcases\TC003_Post_SingleEmployee.class
+base\TestBase.class
+testcases\TC006_Delete_UserRecord.class
+testcases\TC002_Get_SingleEmployeeData.class
+testcases\TC004_Post_RegisterData.class
+testcases\TC001_Get_All_Employees.class
+testcases\TC005_PUT_UpdateData.class
+Utilities\RestUtils.class

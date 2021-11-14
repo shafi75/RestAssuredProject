@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38054" started-at="2021-11-14T18:15:18 IST" finished-at="2021-11-14T18:15:56 IST">
+    <groups>
+    </groups>
+    <test name="Get All Employees" duration-ms="15095" started-at="2021-11-14T18:15:18 IST" finished-at="2021-11-14T18:15:33 IST">
+      <class name="testcases.TC001_Get_All_Employees">
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:testcases.TC001_Get_All_Employees@21213b92]" name="getAllEmployees" is-config="true" duration-ms="13278" started-at="2021-11-14T18:15:18 IST" finished-at="2021-11-14T18:15:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="FAIL" signature="checkValidationOnBody()[pri:0, instance:testcases.TC001_Get_All_Employees@21213b92]" name="checkValidationOnBody" duration-ms="92" started-at="2021-11-14T18:15:31 IST" finished-at="2021-11-14T18:15:31 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at testcases.TC001_Get_All_Employees.checkValidationOnBody(TC001_Get_All_Employees.java:56)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidationOnBody -->
+        <test-method status="PASS" signature="testCheck(org.testng.ITestResult)[pri:0, instance:testcases.TC001_Get_All_Employees@21213b92]" name="testCheck" is-config="true" duration-ms="3" started-at="2021-11-14T18:15:32 IST" finished-at="2021-11-14T18:15:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkValidationOnBody status=FAILURE method=TC001_Get_All_Employees.checkValidationOnBody()[pri:0, instance:testcases.TC001_Get_All_Employees@21213b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheck -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC001_Get_All_Employees@21213b92]" name="teardown" is-config="true" duration-ms="1" started-at="2021-11-14T18:15:32 IST" finished-at="2021-11-14T18:15:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcases.TC001_Get_All_Employees@21213b92]" name="endReport" is-config="true" duration-ms="1495" started-at="2021-11-14T18:15:32 IST" finished-at="2021-11-14T18:15:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC001_Get_All_Employees -->
+    </test> <!-- Get All Employees -->
+    <test name="Get single Employee" duration-ms="5355" started-at="2021-11-14T18:15:33 IST" finished-at="2021-11-14T18:15:39 IST">
+      <class name="testcases.TC002_Get_SingleEmployeeData">
+        <test-method status="PASS" signature="getSingleEmployee()[pri:0, instance:testcases.TC002_Get_SingleEmployeeData@7d907bac]" name="getSingleEmployee" is-config="true" duration-ms="5205" started-at="2021-11-14T18:15:33 IST" finished-at="2021-11-14T18:15:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleEmployee -->
+        <test-method status="PASS" signature="validateSingleEmployeeData()[pri:0, instance:testcases.TC002_Get_SingleEmployeeData@7d907bac]" name="validateSingleEmployeeData" duration-ms="33" started-at="2021-11-14T18:15:38 IST" finished-at="2021-11-14T18:15:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingleEmployeeData -->
+        <test-method status="PASS" signature="testCheck(org.testng.ITestResult)[pri:0, instance:testcases.TC002_Get_SingleEmployeeData@7d907bac]" name="testCheck" is-config="true" duration-ms="5" started-at="2021-11-14T18:15:38 IST" finished-at="2021-11-14T18:15:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSingleEmployeeData status=SUCCESS method=TC002_Get_SingleEmployeeData.validateSingleEmployeeData()[pri:0, instance:testcases.TC002_Get_SingleEmployeeData@7d907bac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheck -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC002_Get_SingleEmployeeData@7d907bac]" name="teardown" is-config="true" duration-ms="1" started-at="2021-11-14T18:15:38 IST" finished-at="2021-11-14T18:15:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcases.TC002_Get_SingleEmployeeData@7d907bac]" name="endReport" is-config="true" duration-ms="110" started-at="2021-11-14T18:15:38 IST" finished-at="2021-11-14T18:15:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC002_Get_SingleEmployeeData -->
+    </test> <!-- Get single Employee -->
+    <test name="Create User" duration-ms="5698" started-at="2021-11-14T18:15:39 IST" finished-at="2021-11-14T18:15:44 IST">
+      <class name="testcases.TC004_Post_RegisterData">
+        <test-method status="PASS" signature="RegisterEmployeeData()[pri:0, instance:testcases.TC004_Post_RegisterData@7b49cea0]" name="RegisterEmployeeData" is-config="true" duration-ms="5609" started-at="2021-11-14T18:15:39 IST" finished-at="2021-11-14T18:15:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterEmployeeData -->
+        <test-method status="PASS" signature="validationsonPostRegisterData()[pri:0, instance:testcases.TC004_Post_RegisterData@7b49cea0]" name="validationsonPostRegisterData" duration-ms="11" started-at="2021-11-14T18:15:44 IST" finished-at="2021-11-14T18:15:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationsonPostRegisterData -->
+        <test-method status="PASS" signature="testCheck(org.testng.ITestResult)[pri:0, instance:testcases.TC004_Post_RegisterData@7b49cea0]" name="testCheck" is-config="true" duration-ms="1" started-at="2021-11-14T18:15:44 IST" finished-at="2021-11-14T18:15:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validationsonPostRegisterData status=SUCCESS method=TC004_Post_RegisterData.validationsonPostRegisterData()[pri:0, instance:testcases.TC004_Post_RegisterData@7b49cea0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheck -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC004_Post_RegisterData@7b49cea0]" name="teardown" is-config="true" duration-ms="1" started-at="2021-11-14T18:15:44 IST" finished-at="2021-11-14T18:15:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcases.TC004_Post_RegisterData@7b49cea0]" name="endReport" is-config="true" duration-ms="74" started-at="2021-11-14T18:15:44 IST" finished-at="2021-11-14T18:15:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC004_Post_RegisterData -->
+    </test> <!-- Create User -->
+    <test name="Update User" duration-ms="5870" started-at="2021-11-14T18:15:44 IST" finished-at="2021-11-14T18:15:50 IST">
+      <class name="testcases.TC005_PUT_UpdateData">
+        <test-method status="PASS" signature="UpdateEmployeeData()[pri:0, instance:testcases.TC005_PUT_UpdateData@5bc79255]" name="UpdateEmployeeData" is-config="true" duration-ms="5578" started-at="2021-11-14T18:15:44 IST" finished-at="2021-11-14T18:15:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateEmployeeData -->
+        <test-method status="PASS" signature="validationOnPutUserData()[pri:0, instance:testcases.TC005_PUT_UpdateData@5bc79255]" name="validationOnPutUserData" duration-ms="29" started-at="2021-11-14T18:15:50 IST" finished-at="2021-11-14T18:15:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOnPutUserData -->
+        <test-method status="PASS" signature="testCheck(org.testng.ITestResult)[pri:0, instance:testcases.TC005_PUT_UpdateData@5bc79255]" name="testCheck" is-config="true" duration-ms="1" started-at="2021-11-14T18:15:50 IST" finished-at="2021-11-14T18:15:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validationOnPutUserData status=SUCCESS method=TC005_PUT_UpdateData.validationOnPutUserData()[pri:0, instance:testcases.TC005_PUT_UpdateData@5bc79255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheck -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC005_PUT_UpdateData@5bc79255]" name="teardown" is-config="true" duration-ms="0" started-at="2021-11-14T18:15:50 IST" finished-at="2021-11-14T18:15:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcases.TC005_PUT_UpdateData@5bc79255]" name="endReport" is-config="true" duration-ms="260" started-at="2021-11-14T18:15:50 IST" finished-at="2021-11-14T18:15:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC005_PUT_UpdateData -->
+    </test> <!-- Update User -->
+    <test name="Delete User" duration-ms="5834" started-at="2021-11-14T18:15:50 IST" finished-at="2021-11-14T18:15:56 IST">
+      <class name="testcases.TC006_Delete_UserRecord">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TC006_Delete_UserRecord@610694f1]" name="setUp" is-config="true" duration-ms="358" started-at="2021-11-14T18:15:18 IST" finished-at="2021-11-14T18:15:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteUserData()[pri:0, instance:testcases.TC006_Delete_UserRecord@610694f1]" name="deleteUserData" is-config="true" duration-ms="5695" started-at="2021-11-14T18:15:50 IST" finished-at="2021-11-14T18:15:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserData -->
+        <test-method status="PASS" signature="validationsonDeleteRequest()[pri:0, instance:testcases.TC006_Delete_UserRecord@610694f1]" name="validationsonDeleteRequest" duration-ms="9" started-at="2021-11-14T18:15:56 IST" finished-at="2021-11-14T18:15:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationsonDeleteRequest -->
+        <test-method status="PASS" signature="testCheck(org.testng.ITestResult)[pri:0, instance:testcases.TC006_Delete_UserRecord@610694f1]" name="testCheck" is-config="true" duration-ms="1" started-at="2021-11-14T18:15:56 IST" finished-at="2021-11-14T18:15:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validationsonDeleteRequest status=SUCCESS method=TC006_Delete_UserRecord.validationsonDeleteRequest()[pri:0, instance:testcases.TC006_Delete_UserRecord@610694f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheck -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC006_Delete_UserRecord@610694f1]" name="teardown" is-config="true" duration-ms="1" started-at="2021-11-14T18:15:56 IST" finished-at="2021-11-14T18:15:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcases.TC006_Delete_UserRecord@610694f1]" name="endReport" is-config="true" duration-ms="127" started-at="2021-11-14T18:15:56 IST" finished-at="2021-11-14T18:15:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcases.TC006_Delete_UserRecord -->
+    </test> <!-- Delete User -->
+  </suite> <!-- Suite -->
+</testng-results>
